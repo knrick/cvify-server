@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <title>CVify Payments</title>
+    <script src="https://cdn.paddle.com/paddle/v2/paddle.js"></script>
+    <script src="/js/utils/csrf.js"></script>
+    <script src="/js/utils/rateLimiter.js"></script>
+    <style>
+        .pricing-page-container {
+            max-width: 900px;
+            margin: auto;
+            text-align: center;
+            margin-top: 2em;
+        }
+        .pricing-grid {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 1em;
+        }
+        .plan {
+            border: 1px solid #ddd;
+            padding: 1em;
+            border-radius: 8px;
+        }
+        .loading {
+            opacity: 0.7;
+            pointer-events: none;
+            position: relative;
+        }
+        
+        .loading::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 20px;
+            height: 20px;
+            margin: -10px 0 0 -10px;
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #3498db;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .button.loading {
+            color: transparent;
+        }
+        
+        #loading-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(255, 255, 255, 0.9);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+        
+        .loading-spinner {
+            width: 50px;
+            height: 50px;
+            border: 5px solid #f3f3f3;
+            border-top: 5px solid #3498db;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        
+        button:disabled {
+            opacity: 0.7;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body>
+    <div id="loading-overlay">
+        <div class="loading-spinner"></div>
+    </div>
+    <div id="content" style="display: none;">
+        <h1 id="payments-title"></h1>
+        <div id="user-info"></div>
+        <div id="subscription-management"></div>
+        <div id="credit-management"></div>
+    </div>
+    <div id="error-message" style="display: none;">
+        <h2 id="error-title"></h2>
+        <p id="error-message"></p>
+    </div>
+    <script src="/js/payments_localization.js"></script>
+    <script src="/js/payments.js"></script>
+    <script>
+        async function init() {
+            await initializeLocalization();
+            // Your existing initialization code here
+            document.getElementById('payments-title').textContent = getMessage('paymentsTitle');
+            document.getElementById('error-title').textContent = getMessage('accessDeniedTitle');
+            document.getElementById('error-message').textContent = getMessage('accessDeniedMessage');
+        }
+        init();
+    </script>
+</body>
+</html>

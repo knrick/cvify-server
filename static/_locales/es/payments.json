@@ -1,0 +1,170 @@
+{
+  "paymentsTitle": {
+    "message": "Pagos de CVify",
+    "description": "Título de la página de pagos"
+  },
+  "accessDeniedTitle": {
+    "message": "Acceso Denegado",
+    "description": "Título para el mensaje de acceso denegado"
+  },
+  "accessDeniedMessage": {
+    "message": "Esta página solo puede ser accedida a través de la extensión CVify de Chrome.",
+    "description": "Mensaje para el acceso denegado"
+  },
+  "premiumPlanStatus": {
+    "message": "Actualmente estás en el plan Premium.",
+    "description": "Mensaje de estado para usuarios premium"
+  },
+  "cancelSubscription": {
+    "message": "Cancelar suscripción",
+    "description": "Texto del botón para cancelar la suscripción"
+  },
+  "upgradeToPremium": {
+    "message": "¡Actualiza a Premium para más funciones!",
+    "description": "Mensaje para animar a actualizar a premium"
+  },
+  "upgradeMonthly": {
+    "message": "Actualizar (1 mes) por $price$",
+    "description": "Texto del botón para actualización mensual",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "9,99 €"
+      }
+    }
+  },
+  "upgradeYearly": {
+    "message": "Actualizar (1 año) por $price$",
+    "description": "Texto del botón para actualización anual",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "99,99 €"
+      }
+    }
+  },
+  "totalExtractionsLeft": {
+    "message": "Te quedan $count$ extracciones en total.",
+    "description": "Mensaje que muestra las extracciones totales restantes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "extractionsLabel": {
+    "message": "$count$ Extracciones ($price$)",
+    "description": "Etiqueta para opciones de compra de extracciones",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      },
+      "price": {
+        "content": "$2",
+        "example": "4,99 €"
+      }
+    }
+  },
+  "buyExtractions": {
+    "message": "Comprar extracciones",
+    "description": "Texto del botón para comprar extracciones"
+  },
+  "email": {
+    "message": "Correo electrónico",
+    "description": "Etiqueta para el correo electrónico"
+  },
+  "tier": {
+    "message": "Nivel",
+    "description": "Etiqueta para el nivel"
+  },
+  "extractionsLeft": {
+    "message": "Extracciones restantes",
+    "description": "Etiqueta para las extracciones restantes"
+  },
+  "paidExtractionsLeft": {
+    "message": "Extracciones pagadas restantes",
+    "description": "Etiqueta para las extracciones pagadas restantes"
+  },
+  "subscriptionEnd": {
+    "message": "La suscripción termina",
+    "description": "Etiqueta para el fin de la suscripción"
+  },
+  "nextBilling": {
+    "message": "Próximo cobro",
+    "description": "Etiqueta para el próximo cobro"
+  },
+  "initializationError": {
+    "message": "Error al inicializar los pagos",
+    "description": "Mensaje de error para fallo de inicialización"
+  },
+  "tokenVerificationFailed": {
+    "message": "Error al verificar el token CSRF. Por favor, abre la página desde la extensión CVify de Chrome.",
+    "description": "Mensaje de error para fallo de verificación del token CSRF"
+  },
+  "errorFetchingPrices": {
+    "message": "Error al obtener los precios",
+    "description": "Mensaje de error para fallo al obtener precios"
+  },
+  "errorFetchingUserInfo": {
+    "message": "Error al obtener la información del usuario",
+    "description": "Mensaje de error para fallo al obtener información del usuario"
+  },
+  "errorCancellingSubscription": {
+    "message": "Error al cancelar la suscripción",
+    "description": "Mensaje de error para fallo al cancelar la suscripción"
+  },
+  "confirmCancelSubscription": {
+    "message": "¿Estás seguro de que quieres cancelar tu suscripción?",
+    "description": "Mensaje de confirmación para cancelar la suscripción"
+  },
+  "noTokenProvided": {
+    "message": "No se proporcionó token",
+    "description": "Mensaje de error cuando no se proporciona token"
+  },
+  "unauthorized": {
+    "message": "No autorizado",
+    "description": "Mensaje de error para acceso no autorizado"
+  },
+  "userIDMismatch": {
+    "message": "ID de usuario no coincide",
+    "description": "Mensaje de error cuando los IDs de usuario no coinciden"
+  },
+  "transactionExistsButBelongsToDifferentUser": {
+    "message": "La transacción existe pero pertenece a otro usuario",
+    "description": "Mensaje de error para desajuste de propiedad de transacción"
+  },
+  "transactionNotFound": {
+    "message": "Transacción no encontrada",
+    "description": "Mensaje de error cuando no se encuentra la transacción"
+  },
+  "transactionAlreadyCompleted": {
+    "message": "Transacción ya completada",
+    "description": "Mensaje cuando se intenta completar una transacción ya completada"
+  },
+  "transactionError": {
+    "message": "Ocurrió un error en la transacción",
+    "description": "Mensaje de error genérico de transacción"
+  },
+  "youMustBeLoggedInToCancelASubscription": {
+    "message": "Debes iniciar sesión para cancelar una suscripción",
+    "description": "Mensaje de error al intentar cancelar suscripción sin iniciar sesión"
+  },
+  "invalidUser": {
+    "message": "Usuario inválido",
+    "description": "Mensaje de error para usuario inválido"
+  },
+  "subscriptionCancelledSuccessfully": {
+    "message": "Suscripción cancelada exitosamente",
+    "description": "Mensaje de éxito para cancelación de suscripción"
+  },
+  "failedToCancelSubscription": {
+    "message": "Error al cancelar la suscripción",
+    "description": "Mensaje de error cuando falla la cancelación de la suscripción"
+  },
+  "notPremiumUser": {
+    "message": "No eres usuario Premium",
+    "description": "Mensaje de error cuando un usuario no premium intenta cancelar la suscripción"
+  }
+}

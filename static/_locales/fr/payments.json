@@ -1,0 +1,170 @@
+{
+  "paymentsTitle": {
+    "message": "Paiements CVify",
+    "description": "Titre de la page de paiements"
+  },
+  "accessDeniedTitle": {
+    "message": "Accès Refusé",
+    "description": "Titre pour le message d'accès refusé"
+  },
+  "accessDeniedMessage": {
+    "message": "Cette page n'est accessible que via l'extension Chrome CVify.",
+    "description": "Message pour l'accès refusé"
+  },
+  "premiumPlanStatus": {
+    "message": "Vous êtes actuellement sur le plan Premium.",
+    "description": "Message de statut pour les utilisateurs premium"
+  },
+  "cancelSubscription": {
+    "message": "Annuler l'abonnement",
+    "description": "Texte du bouton pour annuler l'abonnement"
+  },
+  "upgradeToPremium": {
+    "message": "Passez à Premium pour plus de fonctionnalités !",
+    "description": "Message pour encourager la mise à niveau vers premium"
+  },
+  "upgradeMonthly": {
+    "message": "Mise à niveau (1 mois) pour $price$",
+    "description": "Texte du bouton pour la mise à niveau mensuelle",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "9,99 €"
+      }
+    }
+  },
+  "upgradeYearly": {
+    "message": "Mise à niveau (1 an) pour $price$",
+    "description": "Texte du bouton pour la mise à niveau annuelle",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "99,99 €"
+      }
+    }
+  },
+  "totalExtractionsLeft": {
+    "message": "Il vous reste $count$ extractions au total.",
+    "description": "Message indiquant le total des extractions restantes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "extractionsLabel": {
+    "message": "$count$ Extractions ($price$)",
+    "description": "Étiquette pour les options d'achat d'extractions",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      },
+      "price": {
+        "content": "$2",
+        "example": "4,99 €"
+      }
+    }
+  },
+  "buyExtractions": {
+    "message": "Acheter des extractions",
+    "description": "Texte du bouton pour acheter des extractions"
+  },
+  "email": {
+    "message": "E-mail",
+    "description": "Étiquette pour l'e-mail"
+  },
+  "tier": {
+    "message": "Niveau",
+    "description": "Étiquette pour le niveau"
+  },
+  "extractionsLeft": {
+    "message": "Extractions restantes",
+    "description": "Étiquette pour les extractions restantes"
+  },
+  "paidExtractionsLeft": {
+    "message": "Extractions payées restantes",
+    "description": "Étiquette pour les extractions payées restantes"
+  },
+  "subscriptionEnd": {
+    "message": "Fin d'abonnement",
+    "description": "Étiquette pour la fin d'abonnement"
+  },
+  "nextBilling": {
+    "message": "Prochaine facturation",
+    "description": "Étiquette pour la prochaine facturation"
+  },
+  "initializationError": {
+    "message": "Échec de l'initialisation des paiements",
+    "description": "Message d'erreur pour l'échec de l'initialisation"
+  },
+  "tokenVerificationFailed": {
+    "message": "Échec de la vérification du jeton CSRF. Veuillez ouvrir la page depuis l'extension Chrome CVify.",
+    "description": "Message d'erreur pour l'échec de vérification du jeton CSRF"
+  },
+  "errorFetchingPrices": {
+    "message": "Échec de la récupération des prix",
+    "description": "Message d'erreur pour l'échec de récupération des prix"
+  },
+  "errorFetchingUserInfo": {
+    "message": "Échec de la récupération des informations utilisateur",
+    "description": "Message d'erreur pour l'échec de récupération des informations utilisateur"
+  },
+  "errorCancellingSubscription": {
+    "message": "Échec de l'annulation de l'abonnement",
+    "description": "Message d'erreur pour l'échec de l'annulation de l'abonnement"
+  },
+  "confirmCancelSubscription": {
+    "message": "Êtes-vous sûr de vouloir annuler votre abonnement ?",
+    "description": "Message de confirmation pour l'annulation de l'abonnement"
+  },
+  "noTokenProvided": {
+    "message": "Aucun jeton fourni",
+    "description": "Message d'erreur quand aucun jeton n'est fourni"
+  },
+  "unauthorized": {
+    "message": "Non autorisé",
+    "description": "Message d'erreur pour accès non autorisé"
+  },
+  "userIDMismatch": {
+    "message": "ID utilisateur non concordant",
+    "description": "Message d'erreur quand les IDs utilisateur ne correspondent pas"
+  },
+  "transactionExistsButBelongsToDifferentUser": {
+    "message": "La transaction existe mais appartient à un autre utilisateur",
+    "description": "Message d'erreur pour non-concordance de propriété de transaction"
+  },
+  "transactionNotFound": {
+    "message": "Transaction non trouvée",
+    "description": "Message d'erreur quand la transaction est introuvable"
+  },
+  "transactionAlreadyCompleted": {
+    "message": "Transaction déjà complétée",
+    "description": "Message quand on essaie de compléter une transaction déjà terminée"
+  },
+  "transactionError": {
+    "message": "Une erreur de transaction s'est produite",
+    "description": "Message d'erreur générique de transaction"
+  },
+  "youMustBeLoggedInToCancelASubscription": {
+    "message": "Vous devez être connecté pour annuler un abonnement",
+    "description": "Message d'erreur lors de la tentative d'annulation d'abonnement sans être connecté"
+  },
+  "invalidUser": {
+    "message": "Utilisateur invalide",
+    "description": "Message d'erreur pour utilisateur invalide"
+  },
+  "subscriptionCancelledSuccessfully": {
+    "message": "Abonnement annulé avec succès",
+    "description": "Message de succès pour l'annulation d'abonnement"
+  },
+  "failedToCancelSubscription": {
+    "message": "Échec de l'annulation de l'abonnement",
+    "description": "Message d'erreur quand l'annulation de l'abonnement échoue"
+  },
+  "notPremiumUser": {
+    "message": "Vous n'êtes pas un utilisateur Premium",
+    "description": "Message d'erreur quand un utilisateur non premium essaie d'annuler l'abonnement"
+  }
+}

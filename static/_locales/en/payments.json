@@ -1,0 +1,170 @@
+{
+    "paymentsTitle": {
+      "message": "CVify Payments",
+      "description": "Title for the payments page"
+    },
+    "accessDeniedTitle": {
+      "message": "Access Denied",
+      "description": "Title for the access denied message"
+    },
+    "accessDeniedMessage": {
+      "message": "This page can only be accessed through the CVify Chrome extension.",
+      "description": "Message for the access denied message"
+    },
+    "premiumPlanStatus": {
+      "message": "You are currently on the Premium plan.",
+      "description": "Status message for premium users"
+    },
+    "cancelSubscription": {
+      "message": "Cancel Subscription",
+      "description": "Button text to cancel subscription"
+    },
+    "upgradeToPremium": {
+      "message": "Upgrade to Premium for more features!",
+      "description": "Message to encourage upgrading to premium"
+    },
+    "upgradeMonthly": {
+      "message": "Upgrade (1 Month) for $price$",
+      "description": "Button text for monthly upgrade",
+      "placeholders": {
+        "price": {
+          "content": "$1",
+          "example": "$9.99"
+        }
+      }
+    },
+    "upgradeYearly": {
+      "message": "Upgrade (1 Year) for $price$",
+      "description": "Button text for yearly upgrade",
+      "placeholders": {
+        "price": {
+          "content": "$1",
+          "example": "$99.99"
+        }
+      }
+    },
+    "totalExtractionsLeft": {
+      "message": "You have $count$ total extractions left.",
+      "description": "Message showing remaining extractions",
+      "placeholders": {
+        "count": {
+          "content": "$1",
+          "example": "10"
+        }
+      }
+    },
+    "extractionsLabel": {
+      "message": "$count$ Extractions ($price$)",
+      "description": "Label for extraction purchase options",
+      "placeholders": {
+        "count": {
+          "content": "$1",
+          "example": "10"
+        },
+        "price": {
+          "content": "$2",
+          "example": "$4.99"
+        }
+      }
+    },
+    "buyExtractions": {
+      "message": "Buy Extractions",
+      "description": "Button text to buy extractions"
+    },
+    "email": {
+      "message": "Email",
+      "description": "Label for the email"
+    },
+    "tier": {
+      "message": "Tier",
+      "description": "Label for the tier"
+    },
+    "extractionsLeft": {
+      "message": "Extractions left",
+      "description": "Label for the extractions left"
+    },
+    "paidExtractionsLeft": {
+      "message": "Paid extractions left",
+      "description": "Label for the paid extractions left"
+    },
+    "subscriptionEnd": {
+      "message": "Subscription ends",
+      "description": "Label for the subscription end"
+    },
+    "nextBilling": {
+      "message": "Next billing",
+      "description": "Label for the next billing"
+    },
+    "initializationError": {
+      "message": "Failed to initialize payments",
+      "description": "Error message for initialization failure"
+    },
+    "tokenVerificationFailed": {
+      "message": "Failed to verify CSRF token. Please open the page from the CVify Chrome extension.",
+      "description": "Error message for CSRF token verification failure"
+    },
+    "errorFetchingPrices": {
+      "message": "Failed to fetch prices",
+      "description": "Error message for price fetching failure"
+    },
+    "errorFetchingUserInfo": {
+      "message": "Failed to fetch user info",
+      "description": "Error message for user info fetching failure"
+    },
+    "errorCancellingSubscription": {
+      "message": "Failed to cancel subscription",
+      "description": "Error message for subscription cancellation failure"
+    },
+    "confirmCancelSubscription": {
+      "message": "Are you sure you want to cancel your subscription?",
+      "description": "Confirmation message for subscription cancellation"
+    },
+    "noTokenProvided": {
+      "message": "No token provided",
+      "description": "Error message when no token is provided"
+    },
+    "unauthorized": {
+      "message": "Unauthorized",
+      "description": "Error message for unauthorized access"
+    },
+    "userIDMismatch": {
+      "message": "User ID mismatch",
+      "description": "Error message when user IDs don't match"
+    },
+    "transactionExistsButBelongsToDifferentUser": {
+      "message": "Transaction exists but belongs to a different user",
+      "description": "Error message for transaction ownership mismatch"
+    },
+    "transactionNotFound": {
+      "message": "Transaction not found",
+      "description": "Error message when transaction cannot be found"
+    },
+    "transactionAlreadyCompleted": {
+      "message": "Transaction already completed",
+      "description": "Message when trying to complete an already completed transaction"
+    },
+    "transactionError": {
+      "message": "Transaction error occurred",
+      "description": "Generic transaction error message"
+    },
+    "youMustBeLoggedInToCancelASubscription": {
+      "message": "You must be logged in to cancel a subscription",
+      "description": "Error message when trying to cancel subscription while logged out"
+    },
+    "invalidUser": {
+      "message": "Invalid user",
+      "description": "Error message for invalid user"
+    },
+    "subscriptionCancelledSuccessfully": {
+      "message": "Subscription cancelled successfully",
+      "description": "Success message for subscription cancellation"
+    },
+    "failedToCancelSubscription": {
+      "message": "Failed to cancel subscription",
+      "description": "Error message when subscription cancellation fails"
+    },
+    "notPremiumUser": {
+      "message": "Not a premium user",
+      "description": "Error message when non-premium user tries to cancel subscription"
+    }
+  }

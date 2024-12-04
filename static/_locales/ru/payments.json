@@ -1,0 +1,170 @@
+{
+  "paymentsTitle": {
+    "message": "Платежи CVify",
+    "description": "Заголовок страницы платежей"
+  },
+  "accessDeniedTitle": {
+    "message": "Доступ запрещен",
+    "description": "Заголовок для сообщения о запрете доступа"
+  },
+  "accessDeniedMessage": {
+    "message": "Эта страница доступна только через расширение CVify для Chrome.",
+    "description": "Сообщение о запрете доступа"
+  },
+  "premiumPlanStatus": {
+    "message": "В настоящее время у вас Premium план.",
+    "description": "Сообщение о статусе для пользователей Premium"
+  },
+  "cancelSubscription": {
+    "message": "Отменить подписку",
+    "description": "Текст кнопки для отмены подписки"
+  },
+  "upgradeToPremium": {
+    "message": "Перейдите на Premium для большего функционала!",
+    "description": "Сообщение для поощрения перехода на Premium"
+  },
+  "upgradeMonthly": {
+    "message": "Обновить (1 месяц) за $price$",
+    "description": "Текст кнопки для ежемесячного обновления",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "999 ₽"
+      }
+    }
+  },
+  "upgradeYearly": {
+    "message": "Обновить (1 год) за $price$",
+    "description": "Текст кнопки для ежегодного обновления",
+    "placeholders": {
+      "price": {
+        "content": "$1",
+        "example": "9999 ₽"
+      }
+    }
+  },
+  "totalExtractionsLeft": {
+    "message": "У вас осталось всего $count$ извлечений.",
+    "description": "Сообщение, показывающее общее количество оставшихся извлечений",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "extractionsLabel": {
+    "message": "$count$ Извлечений ($price$)",
+    "description": "Метка для вариантов покупки извлечений",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      },
+      "price": {
+        "content": "$2",
+        "example": "499 ₽"
+      }
+    }
+  },
+  "buyExtractions": {
+    "message": "Купить извлечения",
+    "description": "Текст кнопки для покупки извлечений"
+  },
+  "email": {
+    "message": "Электронная почта",
+    "description": "Метка для электронной почты"
+  },
+  "tier": {
+    "message": "Уровень",
+    "description": "Метка для уровня"
+  },
+  "extractionsLeft": {
+    "message": "Осталось извлечений",
+    "description": "Метка для оставшихся извлечений"
+  },
+  "paidExtractionsLeft": {
+    "message": "Осталось оплаченных извлечений",
+    "description": "Метка для оставшихся оплаченных извлечений"
+  },
+  "subscriptionEnd": {
+    "message": "Подписка заканчивается",
+    "description": "Метка для окончания подписки"
+  },
+  "nextBilling": {
+    "message": "Следующий платеж",
+    "description": "Метка для следующего платежа"
+  },
+  "initializationError": {
+    "message": "Ошибка инициализации платежей",
+    "description": "Сообщение об ошибке при инициализации"
+  },
+  "tokenVerificationFailed": {
+    "message": "Ошибка проверки токена CSRF. Пожалуйста, откройте страницу через расширение CVify для Chrome.",
+    "description": "Сообщение об ошибке при проверке токена CSRF"
+  },
+  "errorFetchingPrices": {
+    "message": "Ошибка при получении цен",
+    "description": "Сообщение об ошибке при получении цен"
+  },
+  "errorFetchingUserInfo": {
+    "message": "Ошибка при получении информации о пользователе",
+    "description": "Сообщение об ошибке при получении информации о пользователе"
+  },
+  "errorCancellingSubscription": {
+    "message": "Ошибка при отмене подписки",
+    "description": "Сообщение об ошибке при отмене подписки"
+  },
+  "confirmCancelSubscription": {
+    "message": "Вы уверены, что хотите отменить подписку?",
+    "description": "Сообщение подтверждения для отмены подписки"
+  },
+  "noTokenProvided": {
+    "message": "Токен не предоставлен",
+    "description": "Сообщение об ошибке, когда токен не предоставлен"
+  },
+  "unauthorized": {
+    "message": "Не авторизован",
+    "description": "Сообщение об ошибке при неавторизованном доступе"
+  },
+  "userIDMismatch": {
+    "message": "Несоответствие ID пользователя",
+    "description": "Сообщение об ошибке при несоответствии ID пользователя"
+  },
+  "transactionExistsButBelongsToDifferentUser": {
+    "message": "Транзакция существует, но принадлежит другому пользователю",
+    "description": "Сообщение об ошибке при несоответствии владельца транзакции"
+  },
+  "transactionNotFound": {
+    "message": "Транзакция не найдена",
+    "description": "Сообщение об ошибке, когда транзакция не найдена"
+  },
+  "transactionAlreadyCompleted": {
+    "message": "Транзакция уже завершена",
+    "description": "Сообщение при попытке завершить уже завершенную транзакцию"
+  },
+  "transactionError": {
+    "message": "Произошла ошибка транзакции",
+    "description": "Общее сообщение об ошибке транзакции"
+  },
+  "youMustBeLoggedInToCancelASubscription": {
+    "message": "Вы должны быть авторизованы для отмены подписки",
+    "description": "Сообщение об ошибке при попытке отменить подписку без авторизации"
+  },
+  "invalidUser": {
+    "message": "Недействительный пользователь",
+    "description": "Сообщение об ошибке для недействительного пользователя"
+  },
+  "subscriptionCancelledSuccessfully": {
+    "message": "Подписка успешно отменена",
+    "description": "Сообщение об успешной отмене подписки"
+  },
+  "failedToCancelSubscription": {
+    "message": "Не удалось отменить подписку",
+    "description": "Сообщение об ошибке при неудачной отмене подписки"
+  },
+  "notPremiumUser": {
+    "message": "Вы не являетесь Premium пользователем",
+    "description": "Сообщение об ошибке, когда не Premium пользователь пытается отменить подписку"
+  }
+}

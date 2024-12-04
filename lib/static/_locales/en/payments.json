@@ -1,0 +1,74 @@
+{
+    "paymentsTitle": {
+      "message": "CVify Payments",
+      "description": "Title for the payments page"
+    },
+    "accessDeniedTitle": {
+      "message": "Access Denied",
+      "description": "Title for the access denied message"
+    },
+    "accessDeniedMessage": {
+      "message": "This page can only be accessed through the CVify Chrome extension.",
+      "description": "Message for the access denied message"
+    },
+    "premiumPlanStatus": {
+      "message": "You are currently on the Premium plan.",
+      "description": "Status message for premium users"
+    },
+    "cancelSubscription": {
+      "message": "Cancel Subscription",
+      "description": "Button text to cancel subscription"
+    },
+    "upgradeToPremium": {
+      "message": "Upgrade to Premium for more features!",
+      "description": "Message to encourage upgrading to premium"
+    },
+    "upgradeMonthly": {
+      "message": "Upgrade (1 Month) for $PRICE$",
+      "description": "Button text for monthly upgrade",
+      "placeholders": {
+        "price": {
+          "content": "$1",
+          "example": "$9.99"
+        }
+      }
+    },
+    "upgradeYearly": {
+      "message": "Upgrade (1 Year) for $PRICE$",
+      "description": "Button text for yearly upgrade",
+      "placeholders": {
+        "price": {
+          "content": "$1",
+          "example": "$99.99"
+        }
+      }
+    },
+    "extractionsLeft": {
+      "message": "You have $COUNT$ extractions left.",
+      "description": "Message showing remaining extractions",
+      "placeholders": {
+        "count": {
+          "content": "$1",
+          "example": "10"
+        }
+      }
+    },
+    "extractionsLabel": {
+      "message": "$COUNT$ Extractions ($PRICE$)",
+      "description": "Label for extraction purchase options",
+      "placeholders": {
+        "count": {
+          "content": "$1",
+          "example": "10"
+        },
+        "price": {
+          "content": "$2",
+          "example": "$4.99"
+        }
+      }
+    },
+    "buyExtractions": {
+      "message": "Buy Extractions",
+      "description": "Button text to buy extractions"
+    }
+  }

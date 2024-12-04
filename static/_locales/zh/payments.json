@@ -1,0 +1,170 @@
+{
+    "paymentsTitle": {
+      "message": "CVify 支付",
+      "description": "支付页面的标题"
+    },
+    "accessDeniedTitle": {
+      "message": "访问被拒绝",
+      "description": "访问被拒绝消息的标题"
+    },
+    "accessDeniedMessage": {
+      "message": "此页面只能通过 CVify Chrome 扩展访问。",
+      "description": "访问被拒绝消息"
+    },
+    "premiumPlanStatus": {
+      "message": "您当前使用的是高级计划。",
+      "description": "高级用户的状态消息"
+    },
+    "cancelSubscription": {
+      "message": "取消订阅",
+      "description": "取消订阅的按钮文本"
+    },
+    "upgradeToPremium": {
+      "message": "升级到高级版以获取更多功能！",
+      "description": "鼓励升级到高级版的消息"
+    },
+    "upgradeMonthly": {
+      "message": "升级（1 个月）价格为 $price$",
+      "description": "每月升级的按钮文本",
+      "placeholders": {
+        "price": {
+          "content": "$1",
+          "example": "$9.99"
+        }
+      }
+    },
+    "upgradeYearly": {
+      "message": "升级（1 年）价格为 $price$",
+      "description": "每年升级的按钮文本",
+      "placeholders": {
+        "price": {
+          "content": "$1",
+          "example": "$99.99"
+        }
+      }
+    },
+    "totalExtractionsLeft": {
+      "message": "您还有 $count$ 次提取机会。",
+      "description": "显示剩余提取次数的消息",
+      "placeholders": {
+        "count": {
+          "content": "$1",
+          "example": "10"
+        }
+      }
+    },
+    "extractionsLabel": {
+      "message": "$count$ 次提取（$price$）",
+      "description": "提取购买选项的标签",
+      "placeholders": {
+        "count": {
+          "content": "$1",
+          "example": "10"
+        },
+        "price": {
+          "content": "$2",
+          "example": "$4.99"
+        }
+      }
+    },
+    "buyExtractions": {
+      "message": "购买提取",
+      "description": "购买提取的按钮文本"
+    },
+    "email": {
+      "message": "电子邮件",
+      "description": "电子邮件的标签"
+    },
+    "tier": {
+      "message": "等级",
+      "description": "等级的标签"
+    },
+    "extractionsLeft": {
+      "message": "剩余提取",
+      "description": "剩余提取的标签"
+    },
+    "paidExtractionsLeft": {
+      "message": "剩余付费提取",
+      "description": "剩余付费提取的标签"
+    },
+    "subscriptionEnd": {
+      "message": "订阅结束",
+      "description": "订阅结束的标签"
+    },
+    "nextBilling": {
+      "message": "下次计费",
+      "description": "下次计费的标签"
+    },
+    "initializationError": {
+      "message": "初始化支付失败",
+      "description": "初始化失败的错误消息"
+    },
+    "tokenVerificationFailed": {
+      "message": "CSRF 令牌验证失败。请从 CVify Chrome 扩展打开页面。",
+      "description": "CSRF 令牌验证失败的错误消息"
+    },
+    "errorFetchingPrices": {
+      "message": "获取价格失败",
+      "description": "获取价格失败的错误消息"
+    },
+    "errorFetchingUserInfo": {
+      "message": "获取用户信息失败",
+      "description": "获取用户信息失败的错误消息"
+    },
+    "errorCancellingSubscription": {
+      "message": "取消订阅失败",
+      "description": "取消订阅失败的错误消息"
+    },
+    "confirmCancelSubscription": {
+      "message": "您确定要取消订阅吗？",
+      "description": "取消订阅的确认消息"
+    },
+    "noTokenProvided": {
+      "message": "未提供令牌",
+      "description": "未提供令牌的错误消息"
+    },
+    "unauthorized": {
+      "message": "未授权",
+      "description": "未授权访问的错误消息"
+    },
+    "userIDMismatch": {
+      "message": "用户 ID 不匹配",
+      "description": "用户 ID 不匹配的错误消息"
+    },
+    "transactionExistsButBelongsToDifferentUser": {
+      "message": "交易存在但属于其他用户",
+      "description": "交易所有权不匹配的错误消息"
+    },
+    "transactionNotFound": {
+      "message": "未找到交易",
+      "description": "找不到交易的错误消息"
+    },
+    "transactionAlreadyCompleted": {
+      "message": "交易已完成",
+      "description": "尝试完成已完成交易时的消息"
+    },
+    "transactionError": {
+      "message": "发生交易错误",
+      "description": "通用交易错误消息"
+    },
+    "youMustBeLoggedInToCancelASubscription": {
+      "message": "您必须登录才能取消订阅",
+      "description": "尝试在未登录时取消订阅的错误消息"
+    },
+    "invalidUser": {
+      "message": "无效用户",
+      "description": "无效用户的错误消息"
+    },
+    "subscriptionCancelledSuccessfully": {
+      "message": "订阅已成功取消",
+      "description": "订阅取消成功的消息"
+    },
+    "failedToCancelSubscription": {
+      "message": "取消订阅失败",
+      "description": "取消订阅失败的错误消息"
+    },
+    "notPremiumUser": {
+      "message": "不是高级用户",
+      "description": "非高级用户尝试取消订阅时的错误消息"
+    }
+}

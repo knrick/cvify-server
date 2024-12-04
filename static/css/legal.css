@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.legal-content {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.legal-links {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.legal-links a {
+    margin: 0 10px;
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.legal-links a:hover {
+    text-decoration: underline;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+ul {
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
